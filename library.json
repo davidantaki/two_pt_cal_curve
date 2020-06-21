@@ -1,4 +1,3 @@
-// For PlatformIO library manifest
 {
     "name": "TwoPtCalCurve",
     "keywords": "calibrationcurve, twopointcalibrationcurve, calibration, sensor calibration",
