@@ -1,13 +1,41 @@
 {
-    "name": "TwoPtCalCurve",
-    "keywords": "calibrationcurve, twopointcalibrationcurve, calibration, sensor calibration",
-    "description": "PlatformIO Library for a two point calibration curve that can be used with all kinds of sensors",
-    "repository": {
-        "type": "git",
-        "url": "https://gitlab.com/david-antaki-open-source/embedded-c-lib/two-pt-cal-curve.git"
+    "name": "DallasTemperature",
+    "keywords": "onewire, 1-wire, bus, sensor, temperature",
+    "description": "Arduino Library for Dallas Temperature ICs (DS18B20, DS18S20, DS1822, DS1820)",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://gitlab.com/david-antaki-open-source/embedded-c-lib/two-pt-cal-curve.git"
     },
-    "authors": [],
-    "version": "1.0.0",
-    "frameworks": "*",
+    "authors":
+    [
+      {
+        "name": "Miles Burton",
+        "email": "miles@mnetcs.com",
+        "url": "http://www.milesburton.com",
+        "maintainer": true
+      },
+      {
+        "name": "Tim Newsome",
+        "email": "nuisance@casualhacker.net"
+      },
+      {
+        "name": "Guil Barros",
+        "email": "gfbarros@bappos.com"
+      },
+      {
+        "name": "Rob Tillaart",
+        "email": "rob.tillaart@gmail.com"
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "OneWire",
+        "authors": "Paul Stoffregen",
+        "frameworks": "arduino"
+      }
+    ],
+    "version": "3.7.7",
+    "frameworks": "arduino",
     "platforms": "*"
-}
+  }
