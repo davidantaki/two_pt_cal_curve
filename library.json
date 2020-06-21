@@ -1,0 +1,14 @@
+// For PlatformIO library manifest
+{
+    "name": "TwoPtCalCurve",
+    "keywords": "calibrationcurve, twopointcalibrationcurve, calibration, sensor calibration",
+    "description": "PlatformIO Library for a two point calibration curve that can be used with all kinds of sensors",
+    "repository": {
+        "type": "git",
+        "url": "https://gitlab.com/david-antaki-open-source/embedded-c-lib/two-pt-cal-curve.git"
+    },
+    "authors": [],
+    "version": "1.0.0",
+    "frameworks": "*",
+    "platforms": "*"
+}
