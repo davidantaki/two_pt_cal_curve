@@ -1,7 +1,7 @@
 {
     "name": "TwoPtCalCurve",
     "keywords": "calibrationcurve, twopointcalibrationcurve, calibration, sensor calibration",
-    "description": "PlatformIO Library for a two point calibration curve that can be used with all kinds of sensors",
+    "description": "C++ Library for a two point calibration curve that can be used with all kinds of sensors",
     "repository": {
         "type": "git",
         "url": "https://gitlab.com/david-antaki-open-source/embedded-c-lib/two_pt_cal_curve.git"
